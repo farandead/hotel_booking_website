@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root {
+  --color: #f85300;
+}
+
+* {
+  transition: 0.2s all ease-in-out;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.user-profile-main-container{
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0PX 0PX 10PX rgba(0, 0, 0, 0.344);
+    padding-top:3vmax ;
+    padding-bottom: 3vmax;
+    margin: auto;
+    width: 45vmax;
+    margin-top: 10vmax;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-bottom: 10vmax;
+    padding-left:4vmax ;
+    padding-right: 4vmax;
+}
+.user-profile-icon svg{
+   height: 5vmax;
+   width: 5vmax;
+   padding-bottom: 2vmax;
+   color: #333333;
+
+}
+.details-field{
+    width: 40vmax;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 2vmax;
+    margin-bottom: 2vmax ;
+    
+}
+.details-field-title{
+    font-weight: bold;
+}
+
+.user-orders-details{
+    text-align: center;
+    margin-top: 2vmax;
+}
+.user-orders-details P{
+    color: #0c0c0c;
+   font-size: 2vmax;
+   font-weight:bold;
+   letter-spacing: 3PX;
+   font-family: 'Staatliches', cursive;
+}
+.log-out-button{
+    margin-top: 2vmax;
+}
+.log-out-button button{
+    width: 7vmax;
+    min-height: 3vmax;
+    background-color:white;
+    
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 600;
+}
+.log-out-button button:hover{
+    background-color: #262626;
+    cursor: pointer;
+    color: white;
+}

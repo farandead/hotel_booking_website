@@ -1,0 +1,139 @@
+body {
+    background-color: #eee
+}
+
+.carousel-inner img {
+    width: 100%
+}
+
+.carousel-item img {
+    width: 50vmax;
+    height: 30vmax !important;
+    position: center;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    margin-top: 0px
+}
+
+#myCarousel .carousel-indicators>li {
+    width: 100px
+}
+
+#myCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+}
+
+#myCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#myCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+.main-room-gallery{
+    width: 70vmax;
+    padding-bottom: 10vmax;
+}
+.main-room-title{
+    margin-top: 5vmax;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5vmax;
+}
+.main-room-descitption-page{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2vmax;
+}
+.room-features-container{
+  
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.room-feature-heading{
+   
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.3vmax;
+    min-width: 20vmax;
+    max-width: fit-content;
+    padding-bottom: 5vmax;
+}
+.room-feature-information{
+   
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    min-width: 20vmax;
+    max-width: 60vmax;
+    height: 7vmax;
+   
+}
+.room-feature-information ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 15vmax;
+    width: 20vmax;
+    width: 50vmax;
+   
+    overflow-x: scroll;
+    padding-top:1vmax ;
+    padding-bottom:1vmax ;
+
+    
+
+}
+.room-feature-information ul li{
+    list-style: none;
+    font-size: 0.9vmax;
+    padding: 1vmax 3vmax;
+}
+.info-control-buttons button{
+   width: 13vmax;
+   font-size:0.9vmax;
+   height: 3vmax;
+   margin-left: -5px;
+   background-color: white;
+   border: 1px solid rgb(82, 82, 82);
+}
+.room-poilicy-information-container{
+    
+    width: 40vmax;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 5vmax;
+    flex-direction: column;
+
+}
+.room-discription-container{
+    font-size: 0.8vmax;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    border-left: 5px solid black;
+    margin-left: 5px;
+    padding-left: 1vmax;
+}

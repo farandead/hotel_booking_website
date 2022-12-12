@@ -1,0 +1,161 @@
+* {
+    font-family: "Sawarabi Gothic", sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+:root {
+    --shadow: rgba(0, 0, 0, 0.551);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main-room-display-container{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vmax;
+}
+
+.main-banner-container{
+    background-image: url(/img/background_img.jpg);
+    background-position:center ;
+    background-color: black;
+    background-blend-mode:lighten;
+    height: 30vmax;
+    width: 100vmax;
+    display: flex;
+   text-align: center;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   color: white;
+
+}
+.main-banner-heading{
+   
+    font-size: 3vmax;
+    text-shadow: 0px 0px 10px var(--shadow);
+    font-family: 'Dancing Script', cursive;
+}
+.main-banner-sub-heading{
+   padding-top: 10px;
+    font-size: 1vmax;
+    text-shadow: 0px 0px 10px var(--shadow);
+}
+.main-banner-information-container{
+    padding-top: 5vmax;
+}
+.sub-heading-infomation{
+    padding-bottom: .5vmax;
+    padding-left:2.8vmax ;
+    padding-right: 2.8vmax;
+    font-size: 1vmax;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    font-weight: 100;
+   
+    
+}
+.sub-main-heading-infomation{
+    padding-top: 2vmax;
+    padding-bottom: 2vmax;
+    font-size: 2.5vmax;
+    font-family: 'Dancing Script', cursive;
+
+}
+.sub-main-paragraph-infomation{
+    width: 30vmax;
+    height: 10vmax;
+    text-align: center;
+    font-weight:lighter;
+    
+    color: rgb(61, 61, 61);
+    font-size: 0.8vmax;
+}
+.room-img img{
+    width: 25vmax;
+    border-radius: 12px;
+}
+.sub-main-paragraph-buttons-infomation button{
+    width: 8vmax;
+    height: 2vmax;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.sub-main-paragraph-buttons-infomation{
+    padding-bottom: 5vmax;
+    
+}
+.main-room-sub-container{
+    display: flex;
+   
+    width:fit-content;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+  
+
+}
+.room-details-container{
+  
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.room-title{
+    font-size: 2.5vmax;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 1vmax;
+}
+.room-details-container{
+    padding-left: 5vmax;
+    padding-right: 5vmax;
+}
+.room-description{
+    width: 15vmax;
+    font-size: 0.8vmax;
+}
+.room-information-tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2vmax;
+}
+.info-tab{
+    font-size: 0.8vmax;
+    margin-left:1vmax ;
+    margin-right: 1vmax;
+}
+.info-tab label{
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+.room-description-buttons{
+    margin-top: 2vmax;
+}
+.room-description-buttons button{
+    width: 8vmax;
+    height: 2vmax;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: -05px;
+
+}
+button:hover{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    cursor: pointer;
+}
