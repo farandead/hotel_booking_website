@@ -23,11 +23,18 @@ button {
   position: relative;
   background: #F2DAD7;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
 
 .project img {
   position: absolute;
+  width: 40vmax;
   opacity: 0.9;
+  height: 25vmax;
 }
 
 .project p {
@@ -38,6 +45,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 2px;
   z-index: 3;
+  color: white;
 }
 
 .project .grid__title {
@@ -59,7 +67,7 @@ button {
 }
 
 .grid__overlay {
-  background: rgba(207, 207, 207, 0.9);
+  background: rgba(126, 126, 126, 0.9);
   height: 100%;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
@@ -69,6 +77,7 @@ button {
   align-items: center;
   transform: translateY(101%);
   transition: all 0.3s ease-in-out;
+  color: white;
 }
 
 .grid__overlay button {

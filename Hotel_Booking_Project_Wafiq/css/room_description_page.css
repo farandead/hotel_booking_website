@@ -34,13 +34,14 @@ body {
     opacity: 0.75
 }
 .main-room-gallery{
-    width: 70vmax;
+    width: 100vmax;
     padding-bottom: 10vmax;
 }
 .main-room-title{
     margin-top: 5vmax;
     font-family: 'Dancing Script', cursive;
     font-size: 2.5vmax;
+    margin-bottom: 5vmax;
 }
 .main-room-descitption-page{
     display: flex;
@@ -108,6 +109,7 @@ body {
     list-style: none;
     font-size: 0.9vmax;
     padding: 1vmax 3vmax;
+    text-transform: uppercase;
 }
 .info-control-buttons button{
    width: 13vmax;
@@ -136,4 +138,57 @@ body {
     border-left: 5px solid black;
     margin-left: 5px;
     padding-left: 1vmax;
+}
+.booking-form-container{
+    margin-top: 2vmax;
+    margin-bottom:2vmax ;
+    width: 30vmax;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgb(162, 162, 162);
+    padding: 5vmax 5vmax;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top:1vmax ;
+    padding-bottom:1vmax ;
+}
+.input-container p{
+  font-weight: 500;
+}
+
+#booking-form-heading{
+    padding-bottom: 2vmax;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+
+}
+.booking-form-container p{
+    font-weight: 600;
+ 
+}
+.number-input{
+    width: 5vmax;
+}
+
+.booking-form-container button{
+    width: 12vmax;
+    height: 3vmax;
+    background-color:  rgb(27, 139, 238);
+    color: white;
+    font-size: 0.7vmax;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 3vmax;
+}
+#span-guests{
+    font-size: 0.5vmax;
+    position: absolute;
+    margin-left: 15vmax;
+    margin-top: 2.8vmax;
+    font-weight: bold;
 }

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap");
+
+:root {
+    --color: #313131;
+
+    --font-heading:'Staatliches', cursive;
+  }
+
+* {
+  transition: 0.2s all ease-in-out;
+  font-family: 'Staatliches', cursive; 
+}
+.main-welcome-heading{
+    font-size: 1.5vmax;
+}
+.main-welcome-heading p span{
+    font-family: var(--font-heading);
+    color: #313131;
+    letter-spacing: 2px;
+    font-size: 2vmax;
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+#pc-geeks{
+    font-family: var(--font-heading);
+    color: #313131;
+    letter-spacing: 2px;
+    font-size: 2vmax;
+    padding-left: 6px;
+    font-weight: bold;
+}
+
+.admin-side-main-container{
+    margin-top: 12vmax;
+    margin-bottom:  12vmax ;
+    box-shadow: 1px 1px 10px rgb(86, 86, 86);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width:72vmax;
+    margin: auto;
+    height: auto;
+    
+   
+}
+.admin-control-button-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f1a1a;
+}
+.admin-control-button-container button{
+    width: 12vmax;
+    height: 5vmax;
+    border: none;
+    font-family: var(--font-heading);
+    color: #fefefe;
+    font-size: 1.3vmax;
+    background-color: #313131;
+
+}
+.admin-control-button-container button:hover{
+ 
+    border: none;
+    font-family: var(--font-heading);
+    color: #313131;
+    font-size: 1.3vmax;
+    background-color: #fdfdfd;
+    cursor: pointer;
+
+}
+.admin-side-sub-container{
+    text-align: center;
+}
+.admin-side-sub-container-buttons{
+    background-color: #1f1a1a;
+    width: 15vmax;
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #f5f0f0;
+    
+    box-shadow: 2px 0px 5px rgb(151, 150, 150) ;
+}
+.admin-side-sub-container{
+  
+}
+.admin-side-sub-container-main-window{
+    height: auto;
+    padding-top:2vmax ;
+    padding-bottom:2vmax ;
+    width: 60vmax;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+   
+}
+
+table {
+    margin: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: fit-content;
+    font-size: 0.7vmax;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .input-container{
+    text-align: left;
+    width:30vmax ;
+  }
+  .input-container input{
+   width: 20vmax;
+   height: 2vmax;
+   border: none;
+   outline: #dddddd;
+   background-color: #efebeb;
+   border-radius: 6px;
+  }
+  .input-container p{
+   margin-bottom: 0px;
+   text-transform: uppercase;
+   padding-bottom: 1px;
+  }
+ #add-product-button{
+    height: 3vmax;
+    width: 8vmax;
+    margin-top: 2vmax;
+    margin-left: 2vmax;
+    background-color: #313131;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+ }
+ #add-product-button:hover{
+    background-color: rgb(48, 127, 254);
+    cursor: pointer;
+
+ }
+ .remove-button-admin{
+    background-color: rgba(37, 146, 255, 0.941);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    height:2vmax ;
+    width:5vmax ;
+    font-size: 0.7vmax;
+ }
+ .remove-button-admin:hover{
+    background-color: rgba(242, 242, 242, 0.941);
+    cursor: pointer;
+    color: black;
+ }
+ .admin-side-sub-container center{
+    font-size: 1.3vmax;
+    font-family: var(--font-heading);
+    color: var(--color);
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding-bottom: 1.5vmax;
+    border-bottom: 3px solid var(--color);
+ }
+ .admin-side-sub-container center p{
+    font-size: 1.3vmax;
+    font-family: var(--font-heading);
+    color: var(--color);
+    letter-spacing: 1px;
+    font-weight: 500;
+ }
+
+ @media (max-width:600px){
+  *{
+    font-size: x-larger;
+  }
+ }

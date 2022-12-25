@@ -20,7 +20,7 @@ body{
 }
 
 .main-banner-container{
-    background-image: url(/img/background_img.jpg);
+    background-image: url(img/background_img.jpg);
     background-position:center ;
     background-color: black;
     background-blend-mode:lighten;
@@ -100,6 +100,7 @@ body{
     align-content: center;
     justify-items: center;
     justify-content: center;
+    margin-top: 5vmax;
   
 
 }
@@ -113,7 +114,7 @@ body{
     flex-direction: column;
 }
 .room-title{
-    font-size: 2.5vmax;
+    font-size: 2vmax;
     font-family: 'Dancing Script', cursive;
     padding-bottom: 1vmax;
 }
